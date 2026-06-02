@@ -1,0 +1,174 @@
+{
+  "activeTheme": "botanical",
+  "themes": {
+    "botanical": {
+      "id": "botanical",
+      "name": "Botanical",
+      "tagline": "Pressed wildflowers & warm cream",
+      "palette": {
+        "bg": "#faf3e9",
+        "surface": "#f1e7d6",
+        "ink": "#4a3f35",
+        "muted": "#9a8c79",
+        "accent": "#c0623f",
+        "accentSoft": "#e3a98f",
+        "line": "#e0d3bf",
+        "heroOverlay": "rgba(250,243,233,0.35)"
+      },
+      "fonts": {
+        "display": "var(--font-cormorant)",
+        "body": "var(--font-ebgaramond)",
+        "label": "var(--font-jost)"
+      },
+      "floral": "wildflower",
+      "rsvpInvert": true
+    },
+    "modern": {
+      "id": "modern",
+      "name": "Modern",
+      "tagline": "Ink, bone & a single line of gold",
+      "palette": {
+        "bg": "#f4f2ee",
+        "surface": "#e9e6df",
+        "ink": "#1c1b19",
+        "muted": "#8a857c",
+        "accent": "#a6803f",
+        "accentSoft": "#cbb487",
+        "line": "#d8d3c9",
+        "heroOverlay": "rgba(244,242,238,0.30)"
+      },
+      "fonts": {
+        "display": "var(--font-fraunces)",
+        "body": "var(--font-jost)",
+        "label": "var(--font-jost)"
+      },
+      "floral": "geometric",
+      "rsvpInvert": true
+    },
+    "classic": {
+      "id": "classic",
+      "name": "Classic",
+      "tagline": "Ivory, deep burgundy & gold leaf",
+      "palette": {
+        "bg": "#f7f2ea",
+        "surface": "#efe6d6",
+        "ink": "#3b2326",
+        "muted": "#8d7066",
+        "accent": "#7c2b39",
+        "accentSoft": "#c79a6a",
+        "line": "#e2d3bd",
+        "heroOverlay": "rgba(247,242,234,0.32)"
+      },
+      "fonts": {
+        "display": "var(--font-playfair)",
+        "body": "var(--font-ebgaramond)",
+        "label": "var(--font-cormorant)"
+      },
+      "floral": "ornament",
+      "rsvpInvert": true
+    }
+  },
+  "content": {
+    "couple": {
+      "partnerA": "Elowen",
+      "partnerB": "Julian",
+      "ampersand": "&"
+    },
+     "heroBackground": "/images/hero-botanical.jpg",
+    "kicker": "The Garden Wedding Of",
+    "dateShort": "September 14, 2026",
+    "dateLong": "Saturday, the fourteenth of September, two thousand twenty-six",
+    "venue": "The Old Rectory Garden · Oxfordshire, England",
+    "countdownTarget": "2026-09-14T16:30:00",
+    "invitation": {
+      "kicker": "With Great Joy",
+      "lines": [
+        "Together with their families,",
+        "Elowen & Julian invite you",
+        "to celebrate their union."
+      ]
+    },
+    "story": {
+      "kicker": "Our Story",
+      "title": "How it bloomed",
+      "image": "/images/story-couple.jpg",
+      "paragraphs": [
+        "It began with a shared umbrella at the Kew Gardens greenhouse. Julian was sketching ferns; Elowen was escaping the London drizzle.",
+        "Three years of shared morning coffees and wildflower hikes later, we're making it permanent."
+      ],
+      "meta": "Oxford, UK · 2022"
+    },
+    "festivities": {
+      "kicker": "Join Us For The Weekend",
+      "title": "The Festivities",
+      "cards": [
+        {
+          "time": "14:00",
+          "day": "FRI",
+          "title": "Welcome Aperitifs",
+          "description": "Garden terrace cocktails and herb-infused bites.",
+          "location": "The Glasshouse"
+        },
+        {
+          "time": "16:30",
+          "day": "SAT",
+          "title": "The Exchange",
+          "description": "A civil ceremony beneath the ancient oak grove.",
+          "location": "The Woodland Grove"
+        },
+        {
+          "time": "19:00",
+          "day": "SAT",
+          "title": "Moonlit Supper",
+          "description": "Al-fresco dining followed by dancing in the barn.",
+          "location": "Great Oak Barn"
+        },
+        {
+          "time": "11:00",
+          "day": "SUN",
+          "title": "Farewell Brunch",
+          "description": "A slow morning of pastries, coffee, and goodbyes.",
+          "location": "The Orangery"
+        }
+      ]
+    },
+    "gallery": {
+      "kicker": "Moments",
+      "title": "Pressed in time",
+      "images": [
+        {
+          "src": "/images/gallery-1.jpg",
+          "alt": "Pressed wildflowers",
+          "depth": 0.18
+        },
+        {
+          "src": "/images/gallery-2.jpg",
+          "alt": "Wedding rings",
+          "depth": 0.34
+        },
+        {
+          "src": "/images/gallery-3.jpg",
+          "alt": "Wildflower meadow at sunset",
+          "depth": 0.12
+        }
+      ]
+    },
+    "rsvp": {
+      "kicker": "Kindly respond by August 1st, 2026",
+      "title": "Will you join us?",
+      "deadlineNote": "Send Response · By August 1st, 2026",
+      "namePlaceholder": "Your name here",
+      "attendanceOptions": [
+        "Happily attending",
+        "Regretfully decline"
+      ],
+      "guestCountDefault": 1,
+      "notePlaceholder": "Wishes, dietary needs, song requests…"
+    },
+    "footer": {
+      "monogram": "E & J",
+      "line": "September 14, 2026 · Oxfordshire, England",
+      "signoff": "Made with love in the garden"
+    }
+  }
+}
