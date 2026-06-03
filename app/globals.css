@@ -2,68 +2,30 @@
 @tailwind components;
 @tailwind utilities;
 
-:root {
-  /* sensible fallbacks; ThemeProvider overrides these at runtime */
-  --c-bg: #faf3e9;
-  --c-surface: #f1e7d6;
-  --c-ink: #4a3f35;
-  --c-muted: #9a8c79;
-  --c-accent: #c0623f;
-  --c-accent-soft: #e3a98f;
-  --c-line: #e0d3bf;
-  --c-hero-overlay: rgba(250, 243, 233, 0.35);
-
-  --font-display: var(--font-cormorant);
-  --font-body: var(--font-ebgaramond);
-  --font-label: var(--font-jost);
-}
-
 html {
   scroll-behavior: smooth;
 }
 
 body {
-  background: var(--c-bg);
-  color: var(--c-ink);
   font-family: var(--font-body);
   overflow-x: hidden;
 }
 
-/* a soft paper grain over the whole page for a "printed invite" feel */
-body::before {
-  content: "";
-  position: fixed;
-  inset: 0;
-  z-index: 1;
-  pointer-events: none;
-  opacity: 0.045;
-  mix-blend-mode: multiply;
-  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='160' height='160'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.9' numOctaves='3'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)'/%3E%3C/svg%3E");
-}
-
-::selection {
-  background: var(--c-accent);
-  color: var(--c-bg);
-}
-
-/* refined thin scrollbar */
 ::-webkit-scrollbar {
-  width: 9px;
-}
-::-webkit-scrollbar-track {
-  background: var(--c-surface);
-}
-::-webkit-scrollbar-thumb {
-  background: var(--c-accent-soft);
-  border-radius: 9px;
+  width: 6px !important;
+  height: 6px !important;
 }
 
-@media (prefers-reduced-motion: reduce) {
-  * {
-    animation-duration: 0.01ms !important;
-    transition-duration: 0.01ms !important;
-  }
-  html {
-    scroll-behavior: auto;
-  }
+::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 5px #c0c0c0;
+  border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #c0c0c0;
+  border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #c0c0c0;
 }

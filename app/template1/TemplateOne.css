@@ -1,0 +1,62 @@
+.template-one {
+  background: var(--c-bg);
+  color: var(--c-ink);
+  font-family: var(--font-body);
+  overflow-x: hidden;
+}
+
+.template-one {
+  --c-bg: #faf3e9;
+  --c-surface: #f1e7d6;
+  --c-ink: #4a3f35;
+  --c-muted: #9a8c79;
+  --c-accent: #c0623f;
+  --c-accent-soft: #e3a98f;
+  --c-line: #e0d3bf;
+  --c-hero-overlay: rgba(250, 243, 233, 0.35);
+
+  --font-display: var(--font-cormorant);
+  --font-body: var(--font-ebgaramond);
+  --font-label: var(--font-jost);
+}
+
+.template-one {
+  scroll-behavior: smooth;
+}
+
+.template-one::before {
+  content: "";
+  position: fixed;
+  inset: 0;
+  z-index: 1;
+  pointer-events: none;
+  opacity: 0.045;
+  mix-blend-mode: multiply;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='160' height='160'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.9' numOctaves='3'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)'/%3E%3C/svg%3E");
+}
+
+/* Text selection */
+::selection {
+  background: var(--c-accent);
+  color: var(--c-bg);
+}
+
+::-webkit-scrollbar {
+  width: 9px;
+}
+::-webkit-scrollbar-track {
+  background: #f1e7d6;
+}
+::-webkit-scrollbar-thumb {
+  background: #e3a98f;
+  border-radius: 9px;
+}
+@media (prefers-reduced-motion: reduce) {
+  * {
+    animation-duration: 0.01ms !important;
+    transition-duration: 0.01ms !important;
+  }
+  html {
+    scroll-behavior: auto;
+  }
+}

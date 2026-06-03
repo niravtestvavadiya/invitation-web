@@ -32,9 +32,11 @@ const ebGaramond = EB_Garamond({
 const jost = Jost({ subsets: ["latin"], variable: "--font-jost" });
 
 export const metadata: Metadata = {
-  title: "Elowen & Julian · A Garden Wedding",
-  description:
-    "You are warmly invited to the wedding of Elowen & Julian — September 14, 2026, Oxfordshire, England.",
+  title: "Invitation Wedding",
+  description: "You are cordially invited to our wedding.",
+  icons: {
+    icon: "data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2280%22>🕊️</text></svg>",
+  },
 };
 
 export default function RootLayout({
