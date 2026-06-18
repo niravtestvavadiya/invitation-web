@@ -10,6 +10,7 @@ import Gallery from "@/components/sections/Gallery";
 import Rsvp from "@/components/sections/Rsvp";
 import Footer from "@/components/sections/Footer";
 import "./TemplateOne.css";
+
 const TemplateOne = () => {
   return (
     <ThemeProvider>
